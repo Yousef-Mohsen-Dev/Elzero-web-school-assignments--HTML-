@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <video
+      autoplay
+      muted
+      controls
+      poster="./assets/Screenshot_25-3-2025_175757_127.0.0.1.jpeg"
+    >
+      <source src="./assets/SampleVideo_360x240_1mb.mp4" type="video/mp4" />
+      <source
+        src="./assets/SampleVideo_360x240_1mb.mkv"
+        type="video/x-matroska"
+      />
+      <source
+        src="./assets/SampleVideo_360x240_1mb.flv"
+        type="video/video/x-flv"
+      />
+      <track src="file_en.vtt" kind="captions" srclang="en" label="English" />
+      <track src="file_ar.vtt" kind="captions" srclang="ar" label="Arabic" />
+      Your browser does not support the audio tag.
+    </video>
+  </body>
+</html>
