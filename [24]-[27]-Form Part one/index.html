@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="test.py" method="post">
+            <input type="hidden" name="numbers" value="000" />
+            <label for="UserName">Username</label>
+            <input
+                type="text"
+                name="UserName"
+                id="UserName"
+                required
+                placeholder="UserName"
+            />
+
+            <hr />
+
+            <label for="Password">Password</label>
+            <input
+                type="Password"
+                name="Password"
+                id="Password"
+                required
+                placeholder="Password"
+            />
+
+            <hr />
+
+            <label for="Mobile">Mobile</label>
+            <input
+                type="tel"
+                name="Mobile"
+                id="Mobile"
+                placeholder="+20100 (234) 123"
+            />
+
+            <hr />
+
+            <label for="Email">Email</label>
+            <input
+                type="email"
+                name="Email"
+                id="Email"
+                required
+                placeholder="Email"
+            />
+
+            <hr />
+
+            <label for="Subject">Subject</label>
+            <input
+                type="text"
+                name="Subject"
+                id="Subject"
+                placeholder="Subject"
+            />
+            <br />
+            <input
+                type="range"
+                min="100"
+                max="500"
+                step="50"
+                name="range"
+                value="400"
+            />
+            <br />
+            <input type="reset" value="Empty Form" />
+            <br />
+            <input type="submit" value="Send Data" />
+        </form>
+    </body>
+</html>
