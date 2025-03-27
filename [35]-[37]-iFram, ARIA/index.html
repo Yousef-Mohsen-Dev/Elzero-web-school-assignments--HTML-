@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- 
+            ما هو العنصر المناسب لوضعه داخل النموذج لإرسال البيانات عند الضغط عليه ؟
+            <input type="submit" value="submit">
+        -->
+
+        <!-- 
+            ما هو العنصر المناسب ليكون عنوان للصفحة كاملة؟
+            <h1></h1>
+        -->
+
+        <!-- 
+            ما هو العنصر المناسب ليكون عنوان لقسم داخل الصفحة؟
+            <h2></h2>
+        -->
+
+        <!-- 
+            ما هو العنصر المناسب ليحتوي على فقرة نصية؟
+            <p></p>
+        -->
+
+        <!-- 
+            كيف تحدد لغة المحتوى الخاص بصفحتك. يمكنك كتابة العنصر الكامل مع ال 
+            Attributes الخاصة بتحديد اللغة 
+            <html lang="en">
+        -->
+
+        <!-- 
+            في عالم ال Accessibility هل الأفضل أن أكتب
+            10 – 20
+            أم
+            10 To 20 => الافضل
+        -->
+
+        <!-- 
+            ذا كان لديك عنصر Div وتريد الوصول إليه عن الطريق الضغط على ال Tab Button ماذا سوف تفعل في العنصر ؟
+
+            <div role="button" tabindex="0"></div>
+        -->
+
+        <!-- 
+            ماذا تعني كلمة ARIA
+            (accessible rich internet applications)
+        -->
+
+        <!-- assignment 2 -->
+
+        <div class="choose-skill" role="group" aria-label="choose skills">
+            <div
+                class="skill"
+                role="checkbox"
+                tabindex="0"
+                aria-labelledby="Python"
+                aria-checked="false"
+            >
+                Python
+            </div>
+            <label id="Python">Skill One</label>
+
+            <div
+                class="skill"
+                role="checkbox"
+                tabindex="0"
+                aria-labelledby="PHP"
+                aria-checked="false"
+            >
+                PHP
+            </div>
+            <label id="PHP">Skill Two</label>
+
+            <div
+                class="skill"
+                role="checkbox"
+                tabindex="0"
+                aria-labelledby="JavaScript"
+                aria-checked="false"
+            >
+                JavaScript
+            </div>
+            <label id="JavaScript">Skill Three</label>
+        </div>
+    </body>
+</html>
